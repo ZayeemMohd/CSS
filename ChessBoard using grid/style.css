@@ -1,0 +1,36 @@
+*{
+    text-align: center;
+}
+
+.container{
+    height: 800px;
+    width: 800px;
+    background-color: #462921;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    margin: 5% auto;
+    box-shadow: 2px 2px 15px black;
+}
+
+.w{
+    background-color: #b5915f;
+}
+
+.b{
+    background-color: #441a03;
+}   
+
+h1{
+    font-weight: 500;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    margin: 8.665px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    margin: 8.665px;
+}
